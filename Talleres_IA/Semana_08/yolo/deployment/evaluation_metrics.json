@@ -1,0 +1,23 @@
+{
+  "model": "best.pt suministrado por el profesor",
+  "dataset_version": 2,
+  "validation": {
+    "map50": 0.6332776959608134,
+    "map50_95": 0.43281083389043395
+  },
+  "test": {
+    "map50": 0.6268956454927738,
+    "map50_95": 0.4296434238639607,
+    "precision": 0.7091465298891249,
+    "recall": 0.5848105395373622
+  },
+  "download": {
+    "source": "large-benchmark-datasets/logistics-sz9jr/2",
+    "selection": "All exported validation and test images, no train",
+    "counts": {
+      "valid": 18988,
+      "test": 9525
+    },
+    "downloaded_bytes": 1556492792
+  }
+}

@@ -1,0 +1,218 @@
+[
+  {
+    "notebook": "Semana_04/01_value_iteration_gridworld.ipynb",
+    "executed_code_cells": 5,
+    "code_cells": 5,
+    "embedded_plots": 0,
+    "status": "Ejecutado completo; salidas guardadas, sin errores.",
+    "sha256": "f25354f181c50916ad145d433df2c9c7b5f72ffe2a0ab77d2f695922fc34fae0"
+  },
+  {
+    "notebook": "Semana_04/02_policy_iteration_gridworld.ipynb",
+    "executed_code_cells": 6,
+    "code_cells": 6,
+    "embedded_plots": 0,
+    "status": "Ejecutado completo; salidas guardadas, sin errores.",
+    "sha256": "1158861cfb4dcd97a2a711e59a0b796b6652b3cb8b75ca4acad9cb99ecf1ffa1"
+  },
+  {
+    "notebook": "Semana_04/03_lab_warehouse_mdp_estudiantes.ipynb",
+    "executed_code_cells": 8,
+    "code_cells": 8,
+    "embedded_plots": 0,
+    "status": "Ejecutado completo; salidas guardadas, sin errores.",
+    "sha256": "6ad306277258790844e7ea78fa4561fac55410a3ed2c73313ab5f2e6ec21dbee"
+  },
+  {
+    "notebook": "Semana_06/challenge/01_data_challenge.ipynb",
+    "executed_code_cells": 9,
+    "code_cells": 9,
+    "embedded_plots": 3,
+    "status": "Ejecutado completo; salidas guardadas, sin errores.",
+    "sha256": "eee0df2f658cb8f951ced3cae968a232556cfa4ac0958083a4a19d83336a9067"
+  },
+  {
+    "notebook": "Semana_06/challenge/02_training_challenge.ipynb",
+    "executed_code_cells": 9,
+    "code_cells": 9,
+    "embedded_plots": 0,
+    "status": "Ejecutado completo; salidas guardadas, sin errores.",
+    "sha256": "9aa01f682b72ab5988ee2b18944c5e2a64d17a7fd2eeedf37f03857378e6ba4e"
+  },
+  {
+    "notebook": "Semana_06/challenge/03_evaluation_deployment_challenge.ipynb",
+    "executed_code_cells": 8,
+    "code_cells": 8,
+    "embedded_plots": 1,
+    "status": "Ejecutado completo; salidas guardadas, sin errores.",
+    "sha256": "565d698be5ad2dca2695a56fcdba85428c7ad8e6a8836e01f03f887acb80640b"
+  },
+  {
+    "notebook": "Semana_06/classification/01_data_profiling_and_splitting.ipynb",
+    "executed_code_cells": 10,
+    "code_cells": 10,
+    "embedded_plots": 0,
+    "status": "Ejecutado completo; salidas guardadas, sin errores.",
+    "sha256": "4170773c145ee634855bb07a32ee7d2f04a69e273f22ea73b8f1ee37ce1337d3"
+  },
+  {
+    "notebook": "Semana_06/classification/02_eda.ipynb",
+    "executed_code_cells": 10,
+    "code_cells": 10,
+    "embedded_plots": 4,
+    "status": "Ejecutado completo; salidas guardadas, sin errores.",
+    "sha256": "87272cf63c3587c656caf60ad9ba3f7a16a7f9f41df1a1df3bfb0751233214e1"
+  },
+  {
+    "notebook": "Semana_06/classification/03_data_processing_and_feature_engineering.ipynb",
+    "executed_code_cells": 6,
+    "code_cells": 6,
+    "embedded_plots": 0,
+    "status": "Ejecutado completo; salidas guardadas, sin errores.",
+    "sha256": "6c02a2dc44442c15160805e00a8597f5bac1ba85a4beb77970124c6e872c7ce7"
+  },
+  {
+    "notebook": "Semana_06/classification/04_training.ipynb",
+    "executed_code_cells": 10,
+    "code_cells": 10,
+    "embedded_plots": 2,
+    "status": "Ejecutado completo; salidas guardadas, sin errores.",
+    "sha256": "e68d1c5591af31b4fe62a8d32a30fea2aaf151018851420ada3aa826b44d9336"
+  },
+  {
+    "notebook": "Semana_06/classification/05_evaluation.ipynb",
+    "executed_code_cells": 9,
+    "code_cells": 9,
+    "embedded_plots": 2,
+    "status": "Ejecutado completo; salidas guardadas, sin errores.",
+    "sha256": "9bc06edefff11de3898e4084740d047834dda789dcf33608b3a586a7f0aa9fe4"
+  },
+  {
+    "notebook": "Semana_06/classification/06_inference_and_deployment.ipynb",
+    "executed_code_cells": 8,
+    "code_cells": 8,
+    "embedded_plots": 0,
+    "status": "Ejecutado completo; salidas guardadas, sin errores.",
+    "sha256": "8fe8f68e645d1f553e201b57630d6b7f03db629df42a0107e04df414271d70be"
+  },
+  {
+    "notebook": "Semana_07/Challenge_Keras3_CIFAR10_Grayscale.ipynb",
+    "executed_code_cells": 18,
+    "code_cells": 18,
+    "embedded_plots": 4,
+    "status": "Ejecutado completo; salidas guardadas, sin errores.",
+    "sha256": "ec78d1b2a4868f381f36b6ef02d14660e31ca139a4b299db93b322854001d534"
+  },
+  {
+    "notebook": "Semana_07/Challenge_Keras3_OlivettiFaces.ipynb",
+    "executed_code_cells": 16,
+    "code_cells": 16,
+    "embedded_plots": 5,
+    "status": "Ejecutado completo; salidas guardadas, sin errores.",
+    "sha256": "15293c167483b7adaf323942e4eb33118da854c092cdce7850d24c459b2d970f"
+  },
+  {
+    "notebook": "Semana_07/YourFirstDeepNN_FashionMNIST_Keras3.ipynb",
+    "executed_code_cells": 14,
+    "code_cells": 14,
+    "embedded_plots": 4,
+    "status": "Ejecutado completo; salidas guardadas, sin errores.",
+    "sha256": "ac28cd09b29dd1c11a8ed1207e3bc3fec499496ead6a59336e16c2af32963a37"
+  },
+  {
+    "notebook": "Semana_08/transfer_learning/CNN_Transfer_Keras3.ipynb",
+    "executed_code_cells": 23,
+    "code_cells": 23,
+    "embedded_plots": 2,
+    "status": "Ejecutado completo con Cats/Dogs: extracción, entrenamiento, guardado, recarga y fine-tuning; TensorFlow/Metal.",
+    "sha256": "75e52548cecfa7c7016f968b75d43653f4bc48af815a950a4a251f7ca5ab1ec5"
+  },
+  {
+    "notebook": "Semana_08/transfer_learning/taller_transfer_learning_datos_propios_keras3.ipynb",
+    "executed_code_cells": 24,
+    "code_cells": 24,
+    "embedded_plots": 6,
+    "status": "Ejecutado completo; salidas guardadas, sin errores.",
+    "sha256": "6aea85dacba2ed49fe67c8ce8d830e52e1cdba2cb51d31781e4c459e49f86f5e"
+  },
+  {
+    "notebook": "Semana_08/yolo/Lecture_08_Yolo_Intro.ipynb",
+    "executed_code_cells": 9,
+    "code_cells": 9,
+    "embedded_plots": 4,
+    "status": "Ejecutado completo; salidas guardadas, sin errores.",
+    "sha256": "ba5ec7fe88509fbcbf84775997029abab00ebdf8a5502aa2432b28423900a982"
+  },
+  {
+    "notebook": "Semana_08/yolo/Lecture_08_Yolo_training.ipynb",
+    "executed_code_cells": 8,
+    "code_cells": 8,
+    "embedded_plots": 3,
+    "status": "Entrenamiento real de 20 épocas con Roboflow; evaluación de test y pesos guardados.",
+    "sha256": "464b7c11bb12a17fd6057489e87cd4734f6c1b9578155798f8ab9b2bb84b90be"
+  },
+  {
+    "notebook": "Semana_08/yolo/Lecture_08_Yolo_training_own_data.ipynb",
+    "executed_code_cells": 8,
+    "code_cells": 8,
+    "embedded_plots": 3,
+    "status": "Entrenamiento real de 20 épocas con Roboflow; evaluación de test y pesos guardados.",
+    "sha256": "b3a03d90c91068b73c61292b7d38d1b5b5c79bf7adc7689ffe66633fb998bae1"
+  },
+  {
+    "notebook": "Semana_08/yolo/deployment/test.ipynb",
+    "executed_code_cells": 17,
+    "code_cells": 17,
+    "embedded_plots": 1,
+    "status": "Modelo del profesor evaluado en validación y test completos de logística; métricas reales guardadas.",
+    "sha256": "c64227b90cec4b84f5ea891a28774b2561cedc88e847d006f9fe6df4cfc2f8ba"
+  },
+  {
+    "notebook": "Semana_09/01_local_chatbot_lab.ipynb",
+    "executed_code_cells": 14,
+    "code_cells": 14,
+    "embedded_plots": 0,
+    "status": "Ejecutado completo con Ollama y TinyLlama local; respuestas y errores del modelo analizados.",
+    "sha256": "e531721c55b85313ce67f1ebc7de39275db70de4da439553c0dff6733dce9484"
+  },
+  {
+    "notebook": "Semana_09/02_local_remote_hf_chatbot_lab.ipynb",
+    "executed_code_cells": 16,
+    "code_cells": 26,
+    "embedded_plots": 0,
+    "status": "Parte local ejecutada; parte remota implementada y configurada, bloqueada por HTTP 402: cuenta sin créditos.",
+    "sha256": "157b67313b5bbf63d78473be8d90ec276f55d012e726bbbb93231bc471f887ff"
+  },
+  {
+    "notebook": "Semana_09/03_nvidia_chatbot_lab.ipynb",
+    "executed_code_cells": 22,
+    "code_cells": 22,
+    "embedded_plots": 0,
+    "status": "Ejecutado con NVIDIA real: chat, memoria y streaming; sin errores.",
+    "sha256": "0d1507dbcfd0ba2b6e108d04009c193f2bc320ff391a98652bb2a91ce99bb737"
+  },
+  {
+    "notebook": "Semana_09/04_nvidia_gradio_lab.ipynb",
+    "executed_code_cells": 31,
+    "code_cells": 31,
+    "embedded_plots": 0,
+    "status": "Ejecutado: interfaces locales y pruebas reales de chat, streaming, memoria, menú y prompt personalizado.",
+    "sha256": "3aa0ee6fdfc8b7180bd54fd5734103f93517f1702d155dd855ce5dcaf3b65f6f"
+  },
+  {
+    "notebook": "Semana_09/05_ejercicio_nvidia_documentos.ipynb",
+    "executed_code_cells": 7,
+    "code_cells": 7,
+    "embedded_plots": 0,
+    "status": "Ejecutado con NVIDIA real: seis preguntas, PDF y pruebas unitarias; interfaz comprobada en navegador.",
+    "sha256": "cdcd0cd3b61a76a570c7ec44077cf15953e7281648063b1a33f7a68a6733263c"
+  },
+  {
+    "notebook": "Semana_09/tokenization_Introduction.ipynb",
+    "executed_code_cells": 8,
+    "code_cells": 8,
+    "embedded_plots": 2,
+    "status": "Ejecutado completo; salidas guardadas, sin errores.",
+    "sha256": "1208d7acd8060ecbbdc63445a9768807913d802ca7c1ca24fb98810ae3ae4ae1"
+  }
+]

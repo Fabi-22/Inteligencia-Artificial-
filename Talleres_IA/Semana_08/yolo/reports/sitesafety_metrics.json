@@ -1,0 +1,15 @@
+{
+  "project": "semilleroml/sitesafety-pbakq",
+  "version": 1,
+  "epochs": 20,
+  "device": "mps",
+  "classes": {
+    "0": "helmet",
+    "1": "vest"
+  },
+  "test_map50": 0.4873437500000001,
+  "test_map50_95": 0.1888397743395377,
+  "test_precision": 0.005553113842537494,
+  "test_recall": 1.0,
+  "test_images": 3
+}

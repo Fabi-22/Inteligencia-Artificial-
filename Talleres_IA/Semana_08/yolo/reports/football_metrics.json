@@ -1,0 +1,17 @@
+{
+  "project": "roboflow-jvuqo/football-players-detection-3zvbc",
+  "version": 1,
+  "epochs": 20,
+  "device": "mps",
+  "classes": {
+    "0": "ball",
+    "1": "goalkeeper",
+    "2": "player",
+    "3": "referee"
+  },
+  "test_map50": 0.6196933131185204,
+  "test_map50_95": 0.4317271514352729,
+  "test_precision": 0.9208630015104975,
+  "test_recall": 0.5138620190947495,
+  "test_images": 13
+}

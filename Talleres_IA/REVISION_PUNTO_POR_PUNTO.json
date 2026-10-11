@@ -1,0 +1,2474 @@
+[
+  {
+    "notebook": "Semana_04/01_value_iteration_gridworld.ipynb",
+    "point": 1,
+    "requirement": "Definir estados, pared, terminales, R(s), acciones y transición",
+    "cells": [
+      4
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_04/01_value_iteration_gridworld.ipynb",
+    "point": 2,
+    "requirement": "Aplicar Bellman de optimalidad hasta convergencia",
+    "cells": [
+      7
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_04/01_value_iteration_gridworld.ipynb",
+    "point": 3,
+    "requirement": "Mostrar valores y extraer política óptima",
+    "cells": [
+      10
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_04/02_policy_iteration_gridworld.ipynb",
+    "point": 1,
+    "requirement": "Evaluar una política fija sin maximizar durante evaluación",
+    "cells": [
+      6
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_04/02_policy_iteration_gridworld.ipynb",
+    "point": 2,
+    "requirement": "Mejorar con argmax y repetir hasta estabilidad",
+    "cells": [
+      10
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_04/02_policy_iteration_gridworld.ipynb",
+    "point": 3,
+    "requirement": "Mostrar historia, valores y política",
+    "cells": [
+      11
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_04/03_lab_warehouse_mdp_estudiantes.ipynb",
+    "point": 1,
+    "requirement": "Parte 1: modelar los estados de la imagen 5×6, pisos, recompensas y terminales",
+    "cells": [
+      5
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_04/03_lab_warehouse_mdp_estudiantes.ipynb",
+    "point": 2,
+    "requirement": "Validar que cada distribución de transición sume 1",
+    "cells": [
+      7
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_04/03_lab_warehouse_mdp_estudiantes.ipynb",
+    "point": 3,
+    "requirement": "Parte 2: valor esperado, Value Iteration y extracción de política",
+    "cells": [
+      9
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_04/03_lab_warehouse_mdp_estudiantes.ipynb",
+    "point": 4,
+    "requirement": "Parte 3: Policy Evaluation, Improvement e Iteration",
+    "cells": [
+      11
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_04/03_lab_warehouse_mdp_estudiantes.ipynb",
+    "point": 5,
+    "requirement": "Parte 4: visualización de valores, flechas y acuerdo de ambos algoritmos",
+    "cells": [
+      14
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_04/03_lab_warehouse_mdp_estudiantes.ipynb",
+    "point": 6,
+    "requirement": "Parte 5.1: destino desde START",
+    "cells": [
+      16
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_04/03_lab_warehouse_mdp_estudiantes.ipynb",
+    "point": 7,
+    "requirement": "Parte 5.2: por qué una recompensa menor puede ser óptima",
+    "cells": [
+      16
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_04/03_lab_warehouse_mdp_estudiantes.ipynb",
+    "point": 8,
+    "requirement": "Parte 5.3: estados afectados por piso resbaloso",
+    "cells": [
+      16
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_04/03_lab_warehouse_mdp_estudiantes.ipynb",
+    "point": 9,
+    "requirement": "Parte 5.4: costo por paso",
+    "cells": [
+      16
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_04/03_lab_warehouse_mdp_estudiantes.ipynb",
+    "point": 10,
+    "requirement": "Parte 5.5: transición dependiente del estado",
+    "cells": [
+      16
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_04/03_lab_warehouse_mdp_estudiantes.ipynb",
+    "point": 11,
+    "requirement": "Experimento A: predicción previa y living_reward=-0.1",
+    "cells": [
+      18
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_04/03_lab_warehouse_mdp_estudiantes.ipynb",
+    "point": 12,
+    "requirement": "Experimento B: éxito 0.4, desviaciones 0.3 y comparación",
+    "cells": [
+      18
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_04/03_lab_warehouse_mdp_estudiantes.ipynb",
+    "point": 13,
+    "requirement": "Experimento C: gamma=0.99 y ruta completa",
+    "cells": [
+      18
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_04/03_lab_warehouse_mdp_estudiantes.ipynb",
+    "point": 14,
+    "requirement": "Bonus: umbral aproximado del costo por paso",
+    "cells": [
+      18
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_06/challenge/01_data_challenge.ipynb",
+    "point": 1,
+    "requirement": "TODO 1: leer wine.csv desde data/raw y validar target",
+    "cells": [
+      6
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_06/challenge/01_data_challenge.ipynb",
+    "point": 2,
+    "requirement": "TODO 2: forma, tipos, nulos, duplicados y distribución de target",
+    "cells": [
+      7
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_06/challenge/01_data_challenge.ipynb",
+    "point": 3,
+    "requirement": "Conclusión de calidad y decisiones",
+    "cells": [
+      8
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_06/challenge/01_data_challenge.ipynb",
+    "point": 4,
+    "requirement": "TODO 3: split 80/20, estratificación y semilla 42",
+    "cells": [
+      10
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_06/challenge/01_data_challenge.ipynb",
+    "point": 5,
+    "requirement": "Verificar particiones disjuntas y cobertura",
+    "cells": [
+      11
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_06/challenge/01_data_challenge.ipynb",
+    "point": 6,
+    "requirement": "TODO 4: tres visualizaciones exclusivamente de train",
+    "cells": [
+      13
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_06/challenge/01_data_challenge.ipynb",
+    "point": 7,
+    "requirement": "Tres hallazgos para modelado",
+    "cells": [
+      14
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_06/challenge/01_data_challenge.ipynb",
+    "point": 8,
+    "requirement": "TODO 5: train.csv y test.csv sin índice, contrato con features/target/semilla/test_size",
+    "cells": [
+      16
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_06/challenge/01_data_challenge.ipynb",
+    "point": 9,
+    "requirement": "Comprobar los tres artefactos requeridos",
+    "cells": [
+      17
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_06/challenge/02_training_challenge.ipynb",
+    "point": 1,
+    "requirement": "Cargar únicamente train y contrato; no cargar test",
+    "cells": [
+      6
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_06/challenge/02_training_challenge.ipynb",
+    "point": 2,
+    "requirement": "TODO 1: imputación por mediana y escalado dentro de pipelines",
+    "cells": [
+      8
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_06/challenge/02_training_challenge.ipynb",
+    "point": 3,
+    "requirement": "Explicar fuga de información al escalar antes de CV",
+    "cells": [
+      9
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_06/challenge/02_training_challenge.ipynb",
+    "point": 4,
+    "requirement": "TODO 2: DecisionTree, LogisticRegression y KNN",
+    "cells": [
+      11
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_06/challenge/02_training_challenge.ipynb",
+    "point": 5,
+    "requirement": "TODO 3: CV estratificada de 5 folds, medias train/val y desviación",
+    "cells": [
+      13
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_06/challenge/02_training_challenge.ipynb",
+    "point": 6,
+    "requirement": "TODO 4: GridSearchCV accuracy y espacios para tres modelos",
+    "cells": [
+      15
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_06/challenge/02_training_challenge.ipynb",
+    "point": 7,
+    "requirement": "TODO 5: campeón por mayor score CV y persistencia de tres artefactos",
+    "cells": [
+      17
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_06/challenge/02_training_challenge.ipynb",
+    "point": 8,
+    "requirement": "Justificación: rendimiento, variabilidad, sobreajuste, complejidad e interpretabilidad",
+    "cells": [
+      19
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_06/challenge/03_evaluation_deployment_challenge.ipynb",
+    "point": 1,
+    "requirement": "Cargar campeón, contrato y test después de selección",
+    "cells": [
+      5
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_06/challenge/03_evaluation_deployment_challenge.ipynb",
+    "point": 2,
+    "requirement": "TODO 1: accuracy, F1 macro, classification_report y matriz",
+    "cells": [
+      7
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_06/challenge/03_evaluation_deployment_challenge.ipynb",
+    "point": 3,
+    "requirement": "Comparar con CV, identificar clases confundidas y discutir sobreajuste",
+    "cells": [
+      17
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_06/challenge/03_evaluation_deployment_challenge.ipynb",
+    "point": 4,
+    "requirement": "TODO 2: validar columnas, reordenar y devolver clase y probabilidades",
+    "cells": [
+      10
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_06/challenge/03_evaluation_deployment_challenge.ipynb",
+    "point": 5,
+    "requirement": "TODO 3: lote de cinco observaciones y batch_predictions.csv",
+    "cells": [
+      12
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_06/challenge/03_evaluation_deployment_challenge.ipynb",
+    "point": 6,
+    "requirement": "TODO 4: test_metrics.json con modelo, accuracy y F1 macro",
+    "cells": [
+      14
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_06/challenge/03_evaluation_deployment_challenge.ipynb",
+    "point": 7,
+    "requirement": "Resumen ejecutivo con seis elementos",
+    "cells": [
+      14
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_06/classification/01_data_profiling_and_splitting.ipynb",
+    "point": 1,
+    "requirement": "Cargar datos originales y revisar estructura/calidad",
+    "cells": [
+      10
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_06/classification/01_data_profiling_and_splitting.ipynb",
+    "point": 2,
+    "requirement": "Crear split estratificado reproducible sin transformaciones",
+    "cells": [
+      12
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_06/classification/01_data_profiling_and_splitting.ipynb",
+    "point": 3,
+    "requirement": "Guardar train, test y contrato",
+    "cells": [
+      13
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_06/classification/02_eda.ipynb",
+    "point": 1,
+    "requirement": "Cargar únicamente entrenamiento",
+    "cells": [
+      6
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_06/classification/02_eda.ipynb",
+    "point": 2,
+    "requirement": "Distribución de clase y escalas de variables",
+    "cells": [
+      8
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_06/classification/02_eda.ipynb",
+    "point": 3,
+    "requirement": "Relación con clase y correlaciones",
+    "cells": [
+      13
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_06/classification/02_eda.ipynb",
+    "point": 4,
+    "requirement": "Decisiones de modelado justificadas por EDA",
+    "cells": [
+      15
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_06/classification/03_data_processing_and_feature_engineering.ipynb",
+    "point": 1,
+    "requirement": "Validar contrato de variables",
+    "cells": [
+      6
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_06/classification/03_data_processing_and_feature_engineering.ipynb",
+    "point": 2,
+    "requirement": "Definir imputación para árbol e imputación/escalado para otros modelos",
+    "cells": [
+      8
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_06/classification/03_data_processing_and_feature_engineering.ipynb",
+    "point": 3,
+    "requirement": "Guardar preprocesadores sin ajustarlos fuera de CV",
+    "cells": [
+      8
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_06/classification/04_training.ipynb",
+    "point": 1,
+    "requirement": "Entropía binaria y gráfica",
+    "cells": [
+      8
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_06/classification/04_training.ipynb",
+    "point": 2,
+    "requirement": "Tres candidatos y espacios de hiperparámetros",
+    "cells": [
+      10
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_06/classification/04_training.ipynb",
+    "point": 3,
+    "requirement": "CV estratificada y optimización por ROC AUC",
+    "cells": [
+      11
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_06/classification/04_training.ipynb",
+    "point": 4,
+    "requirement": "Guardar campeón, comparación y metadatos",
+    "cells": [
+      12
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_06/classification/04_training.ipynb",
+    "point": 5,
+    "requirement": "Inspección opcional del árbol correcto, aunque no sea campeón",
+    "cells": [
+      14
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_06/classification/05_evaluation.ipynb",
+    "point": 1,
+    "requirement": "Evaluar solo el campeón sobre test",
+    "cells": [
+      6
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_06/classification/05_evaluation.ipynb",
+    "point": 2,
+    "requirement": "Accuracy, precision, recall, F1, ROC AUC y reporte por clase",
+    "cells": [
+      7,
+      11
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_06/classification/05_evaluation.ipynb",
+    "point": 3,
+    "requirement": "Matriz de confusión y curva ROC",
+    "cells": [
+      8
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_06/classification/05_evaluation.ipynb",
+    "point": 4,
+    "requirement": "Curva de aprendizaje usando únicamente train",
+    "cells": [
+      10
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_06/classification/05_evaluation.ipynb",
+    "point": 5,
+    "requirement": "Persistir métricas finales",
+    "cells": [
+      11
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_06/classification/06_inference_and_deployment.ipynb",
+    "point": 1,
+    "requirement": "Cargar modelo y contrato originales",
+    "cells": [
+      6
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_06/classification/06_inference_and_deployment.ipynb",
+    "point": 2,
+    "requirement": "Validar faltantes/extras y orden de columnas",
+    "cells": [
+      8
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_06/classification/06_inference_and_deployment.ipynb",
+    "point": 3,
+    "requirement": "Inferencia con nombres de clase y probabilidades",
+    "cells": [
+      8
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_06/classification/06_inference_and_deployment.ipynb",
+    "point": 4,
+    "requirement": "Simular lote y guardar predicciones",
+    "cells": [
+      11
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_07/YourFirstDeepNN_FashionMNIST_Keras3.ipynb",
+    "point": 1,
+    "requirement": "Carga completa y normalización Fashion-MNIST",
+    "cells": [
+      5,
+      6,
+      24
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_07/YourFirstDeepNN_FashionMNIST_Keras3.ipynb",
+    "point": 2,
+    "requirement": "Modelo lineal y FC con 128 unidades ReLU",
+    "cells": [
+      9,
+      10,
+      24
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_07/YourFirstDeepNN_FashionMNIST_Keras3.ipynb",
+    "point": 3,
+    "requirement": "Adam, pérdida con logits, 10 épocas y batch 64",
+    "cells": [
+      12,
+      13
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_07/YourFirstDeepNN_FashionMNIST_Keras3.ipynb",
+    "point": 4,
+    "requirement": "Entrenamientos de ambos modelos y comparación real",
+    "cells": [
+      10,
+      11,
+      14,
+      15,
+      25
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_07/YourFirstDeepNN_FashionMNIST_Keras3.ipynb",
+    "point": 5,
+    "requirement": "Curvas y evaluación sobre test",
+    "cells": [
+      21,
+      22,
+      24,
+      25
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_07/YourFirstDeepNN_FashionMNIST_Keras3.ipynb",
+    "point": 6,
+    "requirement": "Predicciones y softmax",
+    "cells": [
+      20,
+      24
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_07/Challenge_Keras3_CIFAR10_Grayscale.ipynb",
+    "point": 1,
+    "requirement": "Carga, split y preprocesamiento según el enunciado",
+    "cells": [
+      5,
+      7,
+      10,
+      11,
+      13,
+      22
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_07/Challenge_Keras3_CIFAR10_Grayscale.ipynb",
+    "point": 2,
+    "requirement": "TODO arquitectura: Input, Flatten, Dense ReLU y logits",
+    "cells": [
+      15
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_07/Challenge_Keras3_CIFAR10_Grayscale.ipynb",
+    "point": 3,
+    "requirement": "Validación del número exacto de parámetros",
+    "cells": [
+      16
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_07/Challenge_Keras3_CIFAR10_Grayscale.ipynb",
+    "point": 4,
+    "requirement": "TODO compile: Adam, SparseCategoricalCrossentropy from_logits=True y accuracy",
+    "cells": [
+      19
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_07/Challenge_Keras3_CIFAR10_Grayscale.ipynb",
+    "point": 5,
+    "requirement": "TODO fit con épocas, batch y validación indicados",
+    "cells": [
+      22
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_07/Challenge_Keras3_CIFAR10_Grayscale.ipynb",
+    "point": 6,
+    "requirement": "Curvas de aprendizaje y respuesta empírica a overfitting",
+    "cells": [
+      25,
+      38
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_07/Challenge_Keras3_CIFAR10_Grayscale.ipynb",
+    "point": 7,
+    "requirement": "TODO evaluate y accuracy real",
+    "cells": [
+      28
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_07/Challenge_Keras3_CIFAR10_Grayscale.ipynb",
+    "point": 8,
+    "requirement": "TODO softmax y argmax; probabilidades normalizadas",
+    "cells": [
+      32
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_07/Challenge_Keras3_CIFAR10_Grayscale.ipynb",
+    "point": 9,
+    "requirement": "Visualizar 12 predicciones",
+    "cells": [
+      36
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_07/Challenge_Keras3_CIFAR10_Grayscale.ipynb",
+    "point": 10,
+    "requirement": "Reflexión final con resultados, limitaciones y estructura espacial",
+    "cells": [
+      37
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_07/Challenge_Keras3_CIFAR10_Grayscale.ipynb",
+    "point": 11,
+    "requirement": "Pregunta conceptual 1: respuesta explícita cotejada con ejecución cuando corresponde",
+    "cells": [
+      8,
+      37
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_07/Challenge_Keras3_CIFAR10_Grayscale.ipynb",
+    "point": 12,
+    "requirement": "Pregunta conceptual 2: respuesta explícita cotejada con ejecución cuando corresponde",
+    "cells": [
+      17
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_07/Challenge_Keras3_CIFAR10_Grayscale.ipynb",
+    "point": 13,
+    "requirement": "Pregunta conceptual 3: respuesta explícita cotejada con ejecución cuando corresponde",
+    "cells": [
+      17
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_07/Challenge_Keras3_CIFAR10_Grayscale.ipynb",
+    "point": 14,
+    "requirement": "Pregunta conceptual 4: respuesta explícita cotejada con ejecución cuando corresponde",
+    "cells": [
+      17
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_07/Challenge_Keras3_CIFAR10_Grayscale.ipynb",
+    "point": 15,
+    "requirement": "Pregunta conceptual 5: respuesta explícita cotejada con ejecución cuando corresponde",
+    "cells": [
+      20
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_07/Challenge_Keras3_CIFAR10_Grayscale.ipynb",
+    "point": 16,
+    "requirement": "Pregunta conceptual 6: respuesta explícita cotejada con ejecución cuando corresponde",
+    "cells": [
+      23
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_07/Challenge_Keras3_CIFAR10_Grayscale.ipynb",
+    "point": 17,
+    "requirement": "Pregunta conceptual 7: respuesta explícita cotejada con ejecución cuando corresponde",
+    "cells": [
+      23
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_07/Challenge_Keras3_CIFAR10_Grayscale.ipynb",
+    "point": 18,
+    "requirement": "Pregunta conceptual 8: respuesta explícita cotejada con ejecución cuando corresponde",
+    "cells": [
+      26
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_07/Challenge_Keras3_CIFAR10_Grayscale.ipynb",
+    "point": 19,
+    "requirement": "Pregunta conceptual 9: respuesta explícita cotejada con ejecución cuando corresponde",
+    "cells": [
+      29
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_07/Challenge_Keras3_CIFAR10_Grayscale.ipynb",
+    "point": 20,
+    "requirement": "Pregunta conceptual 10: respuesta explícita cotejada con ejecución cuando corresponde",
+    "cells": [
+      34
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_07/Challenge_Keras3_OlivettiFaces.ipynb",
+    "point": 1,
+    "requirement": "Carga, split y preprocesamiento según el enunciado",
+    "cells": [
+      7,
+      10,
+      19,
+      38
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_07/Challenge_Keras3_OlivettiFaces.ipynb",
+    "point": 2,
+    "requirement": "TODO arquitectura: Input, Flatten, Dense ReLU y logits",
+    "cells": [
+      12,
+      38
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_07/Challenge_Keras3_OlivettiFaces.ipynb",
+    "point": 3,
+    "requirement": "Validación del número exacto de parámetros",
+    "cells": [
+      13
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_07/Challenge_Keras3_OlivettiFaces.ipynb",
+    "point": 4,
+    "requirement": "TODO compile: Adam, SparseCategoricalCrossentropy from_logits=True y accuracy",
+    "cells": [
+      15,
+      16,
+      38
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_07/Challenge_Keras3_OlivettiFaces.ipynb",
+    "point": 5,
+    "requirement": "TODO fit con épocas, batch y validación indicados",
+    "cells": [
+      19
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_07/Challenge_Keras3_OlivettiFaces.ipynb",
+    "point": 6,
+    "requirement": "Curvas de aprendizaje y respuesta empírica a overfitting",
+    "cells": [
+      22,
+      36,
+      38
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_07/Challenge_Keras3_OlivettiFaces.ipynb",
+    "point": 7,
+    "requirement": "TODO evaluate y accuracy real",
+    "cells": [
+      25
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_07/Challenge_Keras3_OlivettiFaces.ipynb",
+    "point": 8,
+    "requirement": "TODO softmax y argmax; probabilidades normalizadas",
+    "cells": [
+      29
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_07/Challenge_Keras3_OlivettiFaces.ipynb",
+    "point": 9,
+    "requirement": "Visualizar 12 predicciones",
+    "cells": [
+      33
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_07/Challenge_Keras3_OlivettiFaces.ipynb",
+    "point": 10,
+    "requirement": "Reflexión final con resultados, limitaciones y estructura espacial",
+    "cells": [
+      34
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_07/Challenge_Keras3_OlivettiFaces.ipynb",
+    "point": 11,
+    "requirement": "Pregunta conceptual 1: respuesta explícita cotejada con ejecución cuando corresponde",
+    "cells": [
+      8
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_07/Challenge_Keras3_OlivettiFaces.ipynb",
+    "point": 12,
+    "requirement": "Pregunta conceptual 2: respuesta explícita cotejada con ejecución cuando corresponde",
+    "cells": [
+      14
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_07/Challenge_Keras3_OlivettiFaces.ipynb",
+    "point": 13,
+    "requirement": "Pregunta conceptual 3: respuesta explícita cotejada con ejecución cuando corresponde",
+    "cells": [
+      14
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_07/Challenge_Keras3_OlivettiFaces.ipynb",
+    "point": 14,
+    "requirement": "Pregunta conceptual 4: respuesta explícita cotejada con ejecución cuando corresponde",
+    "cells": [
+      14
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_07/Challenge_Keras3_OlivettiFaces.ipynb",
+    "point": 15,
+    "requirement": "Pregunta conceptual 5: respuesta explícita cotejada con ejecución cuando corresponde",
+    "cells": [
+      17
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_07/Challenge_Keras3_OlivettiFaces.ipynb",
+    "point": 16,
+    "requirement": "Pregunta conceptual 6: respuesta explícita cotejada con ejecución cuando corresponde",
+    "cells": [
+      20
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_07/Challenge_Keras3_OlivettiFaces.ipynb",
+    "point": 17,
+    "requirement": "Pregunta conceptual 7: respuesta explícita cotejada con ejecución cuando corresponde",
+    "cells": [
+      20
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_07/Challenge_Keras3_OlivettiFaces.ipynb",
+    "point": 18,
+    "requirement": "Pregunta conceptual 8: respuesta explícita cotejada con ejecución cuando corresponde",
+    "cells": [
+      23
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_07/Challenge_Keras3_OlivettiFaces.ipynb",
+    "point": 19,
+    "requirement": "Pregunta conceptual 9: respuesta explícita cotejada con ejecución cuando corresponde",
+    "cells": [
+      26
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_07/Challenge_Keras3_OlivettiFaces.ipynb",
+    "point": 20,
+    "requirement": "Pregunta conceptual 10: respuesta explícita cotejada con ejecución cuando corresponde",
+    "cells": [
+      31
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_08/transfer_learning/CNN_Transfer_Keras3.ipynb",
+    "point": 1,
+    "requirement": "Descargar Cats vs Dogs y eliminar archivos no decodificables",
+    "cells": [
+      8
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_08/transfer_learning/CNN_Transfer_Keras3.ipynb",
+    "point": 2,
+    "requirement": "Split 80/20 e imágenes 224×224",
+    "cells": [
+      11
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_08/transfer_learning/CNN_Transfer_Keras3.ipynb",
+    "point": 3,
+    "requirement": "Inferencia ImageNet VGG16 y decode top3",
+    "cells": [
+      16
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_08/transfer_learning/CNN_Transfer_Keras3.ipynb",
+    "point": 4,
+    "requirement": "Extractor VGG16 y visualización de mapas 7×7×512",
+    "cells": [
+      23
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_08/transfer_learning/CNN_Transfer_Keras3.ipynb",
+    "point": 5,
+    "requirement": "800 representaciones y split 700/100; cabeza durante 5 épocas",
+    "cells": [
+      25
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_08/transfer_learning/CNN_Transfer_Keras3.ipynb",
+    "point": 6,
+    "requirement": "Modelo completo con backbone congelado y una época",
+    "cells": [
+      32
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_08/transfer_learning/CNN_Transfer_Keras3.ipynb",
+    "point": 7,
+    "requirement": "Guardar modelo .keras, pesos .h5 y recargar",
+    "cells": [
+      36
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_08/transfer_learning/CNN_Transfer_Keras3.ipynb",
+    "point": 8,
+    "requirement": "Descongelar únicamente block5, recompilar AdamW 1e-5 y entrenar una época",
+    "cells": [
+      41
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_08/transfer_learning/CNN_Transfer_Keras3.ipynb",
+    "point": 9,
+    "requirement": "Inspeccionar ResNet50 y explicar BatchNorm",
+    "cells": [
+      44
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_08/transfer_learning/taller_transfer_learning_datos_propios_keras3.ipynb",
+    "point": 1,
+    "requirement": "TODO 1.1: problema visual de tres clases",
+    "cells": [
+      8
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_08/transfer_learning/taller_transfer_learning_datos_propios_keras3.ipynb",
+    "point": 2,
+    "requirement": "TODO 1.2: dos o tres consultas por clase",
+    "cells": [
+      7
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_08/transfer_learning/taller_transfer_learning_datos_propios_keras3.ipynb",
+    "point": 3,
+    "requirement": "TODO 1.3: hipótesis sobre características visuales",
+    "cells": [
+      8
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_08/transfer_learning/taller_transfer_learning_datos_propios_keras3.ipynb",
+    "point": 4,
+    "requirement": "TODO 1.4: sesgos y fuga de información",
+    "cells": [
+      8
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_08/transfer_learning/taller_transfer_learning_datos_propios_keras3.ipynb",
+    "point": 5,
+    "requirement": "TODO 2.1: descargar aproximadamente 100–150 imágenes útiles por clase",
+    "cells": [
+      55
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_08/transfer_learning/taller_transfer_learning_datos_propios_keras3.ipynb",
+    "point": 6,
+    "requirement": "TODO 2.2: muestras aleatorias y revisión semántica",
+    "cells": [
+      19
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_08/transfer_learning/taller_transfer_learning_datos_propios_keras3.ipynb",
+    "point": 7,
+    "requirement": "TODO 2.3: refinar consultas cuando los resultados son pobres",
+    "cells": [
+      8
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_08/transfer_learning/taller_transfer_learning_datos_propios_keras3.ipynb",
+    "point": 8,
+    "requirement": "TODO 2.4: eliminar imágenes incorrectas y documentar problemas",
+    "cells": [
+      55
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_08/transfer_learning/taller_transfer_learning_datos_propios_keras3.ipynb",
+    "point": 9,
+    "requirement": "TODO 2.5: conteos finales y problema más frecuente",
+    "cells": [
+      55
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_08/transfer_learning/taller_transfer_learning_datos_propios_keras3.ipynb",
+    "point": 10,
+    "requirement": "Verificación técnica: cero imágenes no decodificables",
+    "cells": [
+      17
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_08/transfer_learning/taller_transfer_learning_datos_propios_keras3.ipynb",
+    "point": 11,
+    "requirement": "Split 70/15/15 y explicación de uso de test",
+    "cells": [
+      55
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_08/transfer_learning/taller_transfer_learning_datos_propios_keras3.ipynb",
+    "point": 12,
+    "requirement": "Keras datasets a 224×224, train mezclado y val/test estables",
+    "cells": [
+      25
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_08/transfer_learning/taller_transfer_learning_datos_propios_keras3.ipynb",
+    "point": 13,
+    "requirement": "EfficientNetB0 ImageNet, augmentation, base congelada y cabeza",
+    "cells": [
+      5,
+      24,
+      26,
+      27,
+      32,
+      55
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_08/transfer_learning/taller_transfer_learning_datos_propios_keras3.ipynb",
+    "point": 14,
+    "requirement": "TODO 3: predicción previa de curvas",
+    "cells": [
+      8,
+      28,
+      55
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_08/transfer_learning/taller_transfer_learning_datos_propios_keras3.ipynb",
+    "point": 15,
+    "requirement": "TODO 3: Adam 1e-3, accuracy, EarlyStopping val_loss y hasta 10 épocas",
+    "cells": [
+      28,
+      29,
+      40
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_08/transfer_learning/taller_transfer_learning_datos_propios_keras3.ipynb",
+    "point": 16,
+    "requirement": "Cuatro curvas: accuracy/val_accuracy/loss/val_loss",
+    "cells": [
+      31,
+      53
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_08/transfer_learning/taller_transfer_learning_datos_propios_keras3.ipynb",
+    "point": 17,
+    "requirement": "Evaluación inicial, reporte por clase y matriz de confusión",
+    "cells": [
+      55
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_08/transfer_learning/taller_transfer_learning_datos_propios_keras3.ipynb",
+    "point": 18,
+    "requirement": "TODO 4.1: mejor clase",
+    "cells": [
+      55
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_08/transfer_learning/taller_transfer_learning_datos_propios_keras3.ipynb",
+    "point": 19,
+    "requirement": "TODO 4.2: principal confusión",
+    "cells": [
+      55
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_08/transfer_learning/taller_transfer_learning_datos_propios_keras3.ipynb",
+    "point": 20,
+    "requirement": "TODO 4.3: problema por clase oculto por accuracy",
+    "cells": [
+      55
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_08/transfer_learning/taller_transfer_learning_datos_propios_keras3.ipynb",
+    "point": 21,
+    "requirement": "TODO 4.4: primera mejora en dataset",
+    "cells": [
+      36
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_08/transfer_learning/taller_transfer_learning_datos_propios_keras3.ipynb",
+    "point": 22,
+    "requirement": "TODO 5: decisión de capas por validación y BatchNorm congelada",
+    "cells": [
+      38
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_08/transfer_learning/taller_transfer_learning_datos_propios_keras3.ipynb",
+    "point": 23,
+    "requirement": "TODO 5: recompilar Adam 1e-5, 3–8 épocas y EarlyStopping",
+    "cells": [
+      40
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_08/transfer_learning/taller_transfer_learning_datos_propios_keras3.ipynb",
+    "point": 24,
+    "requirement": "Comparar antes/después, matriz final y métricas por clase",
+    "cells": [
+      55
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_08/transfer_learning/taller_transfer_learning_datos_propios_keras3.ipynb",
+    "point": 25,
+    "requirement": "TODO 6: al menos cinco errores distintos, causas y mejoras",
+    "cells": [
+      55
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_08/transfer_learning/taller_transfer_learning_datos_propios_keras3.ipynb",
+    "point": 26,
+    "requirement": "Conclusión 1: aprendizaje al construir dataset",
+    "cells": [
+      46
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_08/transfer_learning/taller_transfer_learning_datos_propios_keras3.ipynb",
+    "point": 27,
+    "requirement": "Conclusión 2: principal problema de calidad",
+    "cells": [
+      55
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_08/transfer_learning/taller_transfer_learning_datos_propios_keras3.ipynb",
+    "point": 28,
+    "requirement": "Conclusión 3: cambio de desempeño",
+    "cells": [
+      55
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_08/transfer_learning/taller_transfer_learning_datos_propios_keras3.ipynb",
+    "point": 29,
+    "requirement": "Conclusión 4: utilidad y límites del fine-tuning",
+    "cells": [
+      55
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_08/transfer_learning/taller_transfer_learning_datos_propios_keras3.ipynb",
+    "point": 30,
+    "requirement": "Conclusión 5: qué mejorar primero",
+    "cells": [
+      55
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_08/yolo/Lecture_08_Yolo_Intro.ipynb",
+    "point": 1,
+    "requirement": "Cargar modelo y realizar inferencia base",
+    "cells": [
+      5,
+      6
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_08/yolo/Lecture_08_Yolo_Intro.ipynb",
+    "point": 2,
+    "requirement": "Inspeccionar clases, confianza y bounding boxes",
+    "cells": [
+      12,
+      13,
+      15,
+      17,
+      19
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_08/yolo/Lecture_08_Yolo_Intro.ipynb",
+    "point": 3,
+    "requirement": "Visualizar BGR convertido a RGB",
+    "cells": [
+      14,
+      15,
+      17,
+      19
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_08/yolo/Lecture_08_Yolo_Intro.ipynb",
+    "point": 4,
+    "requirement": "Comparar umbrales 0.25, 0.50 y 0.75",
+    "cells": [
+      17
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_08/yolo/Lecture_08_Yolo_Intro.ipynb",
+    "point": 5,
+    "requirement": "Ejercicio: imagen adicional propia o de internet, inferencia y detecciones",
+    "cells": [
+      19
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_08/yolo/Lecture_08_Yolo_training.ipynb",
+    "point": 1,
+    "requirement": "Cargar credencial local sin publicarla",
+    "cells": [
+      3
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_08/yolo/Lecture_08_Yolo_training.ipynb",
+    "point": 2,
+    "requirement": "Descargar proyecto y versión indicados por el profesor",
+    "cells": [
+      4
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_08/yolo/Lecture_08_Yolo_training.ipynb",
+    "point": 3,
+    "requirement": "YOLO26n preentrenado, 20 épocas",
+    "cells": [
+      5
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_08/yolo/Lecture_08_Yolo_training.ipynb",
+    "point": 4,
+    "requirement": "Inferir sobre imagen de test",
+    "cells": [
+      6,
+      9
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_08/yolo/Lecture_08_Yolo_training.ipynb",
+    "point": 5,
+    "requirement": "Inspeccionar cajas, clases y confianza",
+    "cells": [
+      7
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_08/yolo/Lecture_08_Yolo_training.ipynb",
+    "point": 6,
+    "requirement": "Mostrar imagen anotada con colores correctos",
+    "cells": [
+      8
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_08/yolo/Lecture_08_Yolo_training.ipynb",
+    "point": 7,
+    "requirement": "Guardar evaluación y pesos como evidencia adicional",
+    "cells": [
+      9
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_08/yolo/Lecture_08_Yolo_training_own_data.ipynb",
+    "point": 1,
+    "requirement": "Cargar credencial local sin publicarla",
+    "cells": [
+      3
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_08/yolo/Lecture_08_Yolo_training_own_data.ipynb",
+    "point": 2,
+    "requirement": "Descargar proyecto y versión indicados por el profesor",
+    "cells": [
+      4
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_08/yolo/Lecture_08_Yolo_training_own_data.ipynb",
+    "point": 3,
+    "requirement": "YOLO26n preentrenado, 20 épocas",
+    "cells": [
+      5
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_08/yolo/Lecture_08_Yolo_training_own_data.ipynb",
+    "point": 4,
+    "requirement": "Inferir sobre imagen de test",
+    "cells": [
+      6,
+      9
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_08/yolo/Lecture_08_Yolo_training_own_data.ipynb",
+    "point": 5,
+    "requirement": "Inspeccionar cajas, clases y confianza",
+    "cells": [
+      7
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_08/yolo/Lecture_08_Yolo_training_own_data.ipynb",
+    "point": 6,
+    "requirement": "Mostrar imagen anotada con colores correctos",
+    "cells": [
+      8
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_08/yolo/Lecture_08_Yolo_training_own_data.ipynb",
+    "point": 7,
+    "requirement": "Guardar evaluación y pesos como evidencia adicional",
+    "cells": [
+      9
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_08/yolo/deployment/test.ipynb",
+    "point": 1,
+    "requirement": "Credencial y dataset Logistics versión 2",
+    "cells": [
+      5,
+      7
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_08/yolo/deployment/test.ipynb",
+    "point": 2,
+    "requirement": "Cargar best.pt suministrado",
+    "cells": [
+      8
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_08/yolo/deployment/test.ipynb",
+    "point": 3,
+    "requirement": "Evaluación de validación completa",
+    "cells": [
+      9
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_08/yolo/deployment/test.ipynb",
+    "point": 4,
+    "requirement": "Predicción, inspección de cajas y visualización",
+    "cells": [
+      10
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_08/yolo/deployment/test.ipynb",
+    "point": 5,
+    "requirement": "Evaluación de test completa",
+    "cells": [
+      15
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_08/yolo/deployment/test.ipynb",
+    "point": 6,
+    "requirement": "Serializar detecciones con clase, confianza y bbox",
+    "cells": [
+      16
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_08/yolo/deployment/test.ipynb",
+    "point": 7,
+    "requirement": "Prueba adicional del cliente y servidor locales",
+    "cells": [
+      20
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_09/tokenization_Introduction.ipynb",
+    "point": 1,
+    "requirement": "Cargar Word2Vec Google News completo y vectores de 300 dimensiones",
+    "cells": [
+      5
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_09/tokenization_Introduction.ipynb",
+    "point": 2,
+    "requirement": "Explorar king, queen, analogía y similitudes",
+    "cells": [
+      9,
+      11
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_09/tokenization_Introduction.ipynb",
+    "point": 3,
+    "requirement": "PCA del ejemplo y discusión de sesgos",
+    "cells": [
+      6,
+      8,
+      9,
+      16,
+      17,
+      18,
+      19
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_09/tokenization_Introduction.ipynb",
+    "point": 4,
+    "requirement": "Reto 1: animal, vector, diez vecinos y explicación de sorpresas",
+    "cells": [
+      19
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_09/tokenization_Introduction.ipynb",
+    "point": 5,
+    "requirement": "Reto 2: dog-domestic+wild y eagle-fly+swim",
+    "cells": [
+      17
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_09/tokenization_Introduction.ipynb",
+    "point": 6,
+    "requirement": "Reto 2: analogía inventada, hipótesis y resultado",
+    "cells": [
+      17,
+      18,
+      19
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_09/tokenization_Introduction.ipynb",
+    "point": 7,
+    "requirement": "Reto 3: PCA 3D de animal, vecinos y operación; interpretación",
+    "cells": [
+      19
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_09/tokenization_Introduction.ipynb",
+    "point": 8,
+    "requirement": "Verificar vocabulario para prevenir KeyError",
+    "cells": [
+      16,
+      17
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_09/01_local_chatbot_lab.ipynb",
+    "point": 1,
+    "requirement": "Instalar/iniciar Ollama local y descargar tinyllama:1.1b",
+    "cells": [
+      3,
+      5,
+      7
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_09/01_local_chatbot_lab.ipynb",
+    "point": 2,
+    "requirement": "Primera llamada, explicación de red neuronal y generación de código",
+    "cells": [
+      11,
+      13,
+      14,
+      19,
+      21,
+      24
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_09/01_local_chatbot_lab.ipynb",
+    "point": 3,
+    "requirement": "Demostrar interacciones sin memoria",
+    "cells": [
+      21,
+      26
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_09/01_local_chatbot_lab.ipynb",
+    "point": 4,
+    "requirement": "Implementar historial System/Human/AI y repetir pregunta",
+    "cells": [
+      24
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_09/01_local_chatbot_lab.ipynb",
+    "point": 5,
+    "requirement": "Explicar contexto y estrategias para conversaciones largas",
+    "cells": [
+      28
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_09/02_local_remote_hf_chatbot_lab.ipynb",
+    "point": 1,
+    "requirement": "LOCAL: cargar Qwen2.5-1.5B-Instruct y tokenizer",
+    "cells": [
+      7
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_09/02_local_remote_hf_chatbot_lab.ipynb",
+    "point": 2,
+    "requirement": "LOCAL: aplicar plantilla, tokenizar, generar y decodificar",
+    "cells": [
+      9,
+      12
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_09/02_local_remote_hf_chatbot_lab.ipynb",
+    "point": 3,
+    "requirement": "LOCAL: función reutilizable y ejemplo de código",
+    "cells": [
+      12
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_09/02_local_remote_hf_chatbot_lab.ipynb",
+    "point": 4,
+    "requirement": "LOCAL: historial y prueba del color",
+    "cells": [
+      15
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_09/02_local_remote_hf_chatbot_lab.ipynb",
+    "point": 5,
+    "requirement": "LOCAL: pipeline y chatbot con memoria",
+    "cells": [
+      23
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_09/02_local_remote_hf_chatbot_lab.ipynb",
+    "point": 6,
+    "requirement": "REMOTO: token con permiso de inferencia y cliente",
+    "cells": [
+      29
+    ],
+    "status": "Implementado; servicio bloqueado por HTTP 402 (sin créditos)",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_09/02_local_remote_hf_chatbot_lab.ipynb",
+    "point": 7,
+    "requirement": "REMOTO: primera inferencia real",
+    "cells": [
+      31,
+      33
+    ],
+    "status": "Implementado; servicio bloqueado por HTTP 402 (sin créditos)",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_09/02_local_remote_hf_chatbot_lab.ipynb",
+    "point": 8,
+    "requirement": "REMOTO: función reutilizable",
+    "cells": [
+      33
+    ],
+    "status": "Implementado; servicio bloqueado por HTTP 402 (sin créditos)",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_09/02_local_remote_hf_chatbot_lab.ipynb",
+    "point": 9,
+    "requirement": "REMOTO: historial y prueba del color",
+    "cells": [
+      36
+    ],
+    "status": "Implementado; servicio bloqueado por HTTP 402 (sin créditos)",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_09/02_local_remote_hf_chatbot_lab.ipynb",
+    "point": 10,
+    "requirement": "REMOTO: streaming real",
+    "cells": [
+      40
+    ],
+    "status": "Implementado; servicio bloqueado por HTTP 402 (sin créditos)",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_09/02_local_remote_hf_chatbot_lab.ipynb",
+    "point": 11,
+    "requirement": "Comparativa de modos local, remoto y API",
+    "cells": [
+      2,
+      42
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_09/03_nvidia_chatbot_lab.ipynb",
+    "point": 1,
+    "requirement": "Configurar cliente NVIDIA con clave local y modelo indicado",
+    "cells": [
+      9
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_09/03_nvidia_chatbot_lab.ipynb",
+    "point": 2,
+    "requirement": "Primera llamada y metadatos de uso",
+    "cells": [
+      11,
+      13,
+      15,
+      17,
+      19,
+      21,
+      29,
+      30,
+      36,
+      38
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_09/03_nvidia_chatbot_lab.ipynb",
+    "point": 3,
+    "requirement": "Chat sin memoria y con historial",
+    "cells": [
+      15,
+      20,
+      21,
+      26,
+      31,
+      38
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_09/03_nvidia_chatbot_lab.ipynb",
+    "point": 4,
+    "requirement": "Streaming y streaming con memoria",
+    "cells": [
+      29,
+      32
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_09/03_nvidia_chatbot_lab.ipynb",
+    "point": 5,
+    "requirement": "Roles y gestión de conversaciones largas",
+    "cells": [
+      10,
+      11,
+      13,
+      15,
+      21,
+      27,
+      29,
+      32,
+      35,
+      36,
+      38
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_09/04_nvidia_gradio_lab.ipynb",
+    "point": 1,
+    "requirement": "Configurar NVIDIA y dependencias localmente",
+    "cells": [
+      5,
+      6
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_09/04_nvidia_gradio_lab.ipynb",
+    "point": 2,
+    "requirement": "Interfaz simple de Gradio",
+    "cells": [
+      9,
+      11,
+      16,
+      22,
+      32
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_09/04_nvidia_gradio_lab.ipynb",
+    "point": 3,
+    "requirement": "Chat básico y streaming",
+    "cells": [
+      20,
+      21,
+      22,
+      26,
+      36
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_09/04_nvidia_gradio_lab.ipynb",
+    "point": 4,
+    "requirement": "ChatInterface con historial",
+    "cells": [
+      25,
+      27,
+      37
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_09/04_nvidia_gradio_lab.ipynb",
+    "point": 5,
+    "requirement": "Generador de menú con múltiples entradas",
+    "cells": [
+      1,
+      2,
+      3,
+      6,
+      11,
+      22,
+      25,
+      26,
+      27,
+      30,
+      31,
+      32,
+      33,
+      34,
+      40,
+      41
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_09/04_nvidia_gradio_lab.ipynb",
+    "point": 6,
+    "requirement": "System prompt personalizable",
+    "cells": [
+      36
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_09/04_nvidia_gradio_lab.ipynb",
+    "point": 7,
+    "requirement": "Pruebas reales de funciones e interfaces construidas",
+    "cells": [
+      41
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_09/05_ejercicio_nvidia_documentos.ipynb",
+    "point": 1,
+    "requirement": "Paso 0: PDF local y cliente con credencial protegida",
+    "cells": [
+      3,
+      6,
+      12
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_09/05_ejercicio_nvidia_documentos.ipynb",
+    "point": 2,
+    "requirement": "Paso 1: extraer páginas, contemplar None y mostrar primeros 500 caracteres",
+    "cells": [
+      5,
+      6
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_09/05_ejercicio_nvidia_documentos.ipynb",
+    "point": 3,
+    "requirement": "Paso 2: endpoint NVIDIA y Nemotron 3 Super",
+    "cells": [
+      7,
+      8
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_09/05_ejercicio_nvidia_documentos.ipynb",
+    "point": 4,
+    "requirement": "Paso 3.1: system prompt delimitado, exclusivo del documento y abstención",
+    "cells": [
+      9,
+      10
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_09/05_ejercicio_nvidia_documentos.ipynb",
+    "point": 5,
+    "requirement": "Paso 3.2: historial Gradio a roles user/assistant",
+    "cells": [
+      9,
+      10,
+      18
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_09/05_ejercicio_nvidia_documentos.ipynb",
+    "point": 6,
+    "requirement": "Paso 3.3: streaming acumulativo y yield",
+    "cells": [
+      10,
+      18
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_09/05_ejercicio_nvidia_documentos.ipynb",
+    "point": 7,
+    "requirement": "Paso 4: número de páginas/caracteres, ChatInterface, documento oculto y ejemplos",
+    "cells": [
+      11,
+      12
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_09/05_ejercicio_nvidia_documentos.ipynb",
+    "point": 8,
+    "requirement": "Paso 4: interfaz iniciada y probada localmente",
+    "cells": [
+      20
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_09/05_ejercicio_nvidia_documentos.ipynb",
+    "point": 9,
+    "requirement": "Paso 5.1: arquitectura principal",
+    "cells": [
+      19
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_09/05_ejercicio_nvidia_documentos.ipynb",
+    "point": 10,
+    "requirement": "Paso 5.2: atención",
+    "cells": [
+      19
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_09/05_ejercicio_nvidia_documentos.ipynb",
+    "point": 11,
+    "requirement": "Paso 5.3: seis capas",
+    "cells": [
+      19,
+      20
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_09/05_ejercicio_nvidia_documentos.ipynb",
+    "point": 12,
+    "requirement": "Paso 5.4: autores",
+    "cells": [
+      19
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_09/05_ejercicio_nvidia_documentos.ipynb",
+    "point": 13,
+    "requirement": "Paso 5.5: WMT 2014 y distinción base/big",
+    "cells": [
+      19
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_09/05_ejercicio_nvidia_documentos.ipynb",
+    "point": 14,
+    "requirement": "Paso 5.6: pregunta trampa GPT-4 y observación",
+    "cells": [
+      19
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_09/05_ejercicio_nvidia_documentos.ipynb",
+    "point": 15,
+    "requirement": "Reflexión 1: enviar documento completo",
+    "cells": [
+      16
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_09/05_ejercicio_nvidia_documentos.ipynb",
+    "point": 16,
+    "requirement": "Reflexión 2: por qué no es RAG",
+    "cells": [
+      16
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_09/05_ejercicio_nvidia_documentos.ipynb",
+    "point": 17,
+    "requirement": "Reflexión 3: comprobar fundamento documental",
+    "cells": [
+      16
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_09/05_ejercicio_nvidia_documentos.ipynb",
+    "point": 18,
+    "requirement": "Reflexión 4: riesgos del prompt",
+    "cells": [
+      16
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  },
+  {
+    "notebook": "Semana_09/05_ejercicio_nvidia_documentos.ipynb",
+    "point": 19,
+    "requirement": "Mejoras opcionales A y C: contexto y citas, con límites medidos",
+    "cells": [
+      16
+    ],
+    "status": "Revisado y cumplido",
+    "source_commit": "336a28e693b53f0a448ba967c5f37287c8c6c8ef"
+  }
+]

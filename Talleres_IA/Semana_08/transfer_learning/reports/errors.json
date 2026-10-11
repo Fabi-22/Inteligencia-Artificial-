@@ -1,0 +1,14 @@
+[
+  {
+    "file": "dataset/test/rose/0039.jpg",
+    "true": "rose",
+    "prediction": "tulip",
+    "confidence": 0.5735606551170349
+  },
+  {
+    "file": "dataset/test/tulip/0139.jpg",
+    "true": "tulip",
+    "prediction": "rose",
+    "confidence": 0.5314167141914368
+  }
+]

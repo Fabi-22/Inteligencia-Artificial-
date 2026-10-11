@@ -1,0 +1,6 @@
+# Complementos probados para los ejemplos 01 y 02
+-r requirements.txt
+transformers==4.57.6
+accelerate==1.15.0
+huggingface_hub==0.36.2
+langchain-ollama==1.1.0

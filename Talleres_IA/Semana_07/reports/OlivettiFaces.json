@@ -1,0 +1,39 @@
+{
+  "dataset": "OlivettiFaces",
+  "test_accuracy": 0.02500000037252903,
+  "test_loss": 3.6888859272003174,
+  "train_accuracy": 0.02500000037252903,
+  "gap": 0.0,
+  "parameters": 264808,
+  "epochs": 30,
+  "confusions": [
+    [
+      2,
+      39,
+      10
+    ],
+    [
+      2,
+      38,
+      10
+    ],
+    [
+      2,
+      37,
+      10
+    ],
+    [
+      2,
+      36,
+      10
+    ],
+    [
+      2,
+      35,
+      10
+    ]
+  ],
+  "centered_accuracy": 0.949999988079071,
+  "centered_train_accuracy": 1.0,
+  "inactive_units_baseline": 64
+}

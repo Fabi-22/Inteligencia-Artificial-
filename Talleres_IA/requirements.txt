@@ -1,0 +1,25 @@
+# Entorno probado: Python 3.11, macOS arm64, CPU y MPS (YOLO)
+numpy==2.3.5
+pandas==3.0.6
+matplotlib==3.11.2
+seaborn==0.13.2
+scikit-learn==1.9.1
+nbformat==5.11.1
+nbclient==0.11.0
+ipykernel==7.4.0
+tensorflow==2.21.0
+keras==3.15.1
+pillow==12.3.0
+requests==2.34.2
+ddgs==9.16.0
+pypdf==6.19.0
+openai==3.24.0
+python-dotenv==1.2.4
+gradio==6.29.1
+gensim==4.4.0
+ultralytics==8.4.174
+roboflow==1.7.0
+plotly==7.1.0
+
+litserve==0.2.19
+supervision==0.30.8

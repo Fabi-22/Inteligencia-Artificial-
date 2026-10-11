@@ -1,0 +1,12 @@
+{
+  "champion": "LogisticRegression",
+  "cv_accuracy": 0.9790640394088669,
+  "cv_std": 0.027713464392187602,
+  "train_accuracy": 1.0,
+  "best_params": {
+    "model__C": 1
+  },
+  "random_state": 42,
+  "n_splits": 5,
+  "selection_rule": "Maximum mean CV accuracy; deterministic model order breaks ties"
+}

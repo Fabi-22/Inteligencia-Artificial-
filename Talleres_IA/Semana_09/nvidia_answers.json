@@ -1,0 +1,26 @@
+[
+  {
+    "question": "¿Cuál es la arquitectura principal propuesta en el paper?",
+    "answer": "El paper propone una nueva arquitectura de red neuronal, el Transformer, basada únicamente en mecanismos de atención, prescindiendo completamente de recurrencias y convoluciones. [Página 1]"
+  },
+  {
+    "question": "¿Qué es el mecanismo de atención?",
+    "answer": "El mecanismo de atención es una función que asocia una consulta y un conjunto de pares clave-valor a una salida, donde la salida se calcula como una suma ponderada de los valores, y el peso asignado a cada valor se calcula mediante una función de compatibilidad de la consulta con la clave correspondiente. [Página 3]"
+  },
+  {
+    "question": "¿Cuántas capas tiene el encoder del modelo base?",
+    "answer": "6 layers"
+  },
+  {
+    "question": "¿Quiénes son los autores del paper?",
+    "answer": "Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Łukasz Kaiser, Illia Polosukhin"
+  },
+  {
+    "question": "¿Cuál es el resultado del modelo en WMT 2014 English-to-German?",
+    "answer": "28.4 BLEU [Página 1]"
+  },
+  {
+    "question": "¿Qué es GPT-4?",
+    "answer": "No encuentro esa información en el documento."
+  }
+]

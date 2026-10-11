@@ -1,0 +1,86 @@
+{
+  "method": "Revisión visual de hojas de contacto antes del split; hash diferencial conservador para imágenes casi idénticas",
+  "excluded": [
+    {
+      "file": "rose/0111.jpg",
+      "reason": "Otra flor, apariencia de azalea"
+    },
+    {
+      "file": "rose/0115.jpg",
+      "reason": "Texto y diseño de catálogo"
+    },
+    {
+      "file": "tulip/0024.jpg",
+      "reason": "Marca de agua repetida"
+    },
+    {
+      "file": "tulip/0035.jpg",
+      "reason": "Planta ajena a la clase (poinsettia)"
+    },
+    {
+      "file": "tulip/0044.jpg",
+      "reason": "Texto superpuesto"
+    },
+    {
+      "file": "tulip/0140.jpg",
+      "reason": "Flor con apariencia de lirio, etiqueta ambigua"
+    },
+    {
+      "file": "daisy/0005.jpg",
+      "reason": "Cosmos rosado y mezcla de flores"
+    },
+    {
+      "file": "daisy/0012.jpg",
+      "reason": "Mezcla de especies sin margarita predominante"
+    },
+    {
+      "file": "daisy/0013.jpg",
+      "reason": "Flores amarillas, etiqueta ambigua"
+    },
+    {
+      "file": "daisy/0041.jpg",
+      "reason": "Imagen de estudio/render de procedencia incierta"
+    },
+    {
+      "file": "daisy/0042.jpg",
+      "reason": "Ilustración aislada"
+    },
+    {
+      "file": "daisy/0045.jpg",
+      "reason": "Ilustración aislada"
+    },
+    {
+      "file": "daisy/0048.jpg",
+      "reason": "Ilustración aislada"
+    },
+    {
+      "file": "daisy/0087.jpg",
+      "reason": "Flor morada de otra especie"
+    },
+    {
+      "file": "daisy/0104.jpg",
+      "reason": "Placeholder sin flor"
+    },
+    {
+      "file": "daisy/0108.jpg",
+      "reason": "Collage de catálogo"
+    },
+    {
+      "file": "daisy/0112.jpg",
+      "reason": "Ilustración botánica"
+    },
+    {
+      "file": "daisy/0113.jpg",
+      "reason": "Ficha de producto con texto"
+    },
+    {
+      "file": "daisy/0095.jpg",
+      "reason": "Hash perceptual casi idéntico a daisy/0083.jpg"
+    }
+  ],
+  "counts": {
+    "daisy": 121,
+    "rose": 148,
+    "tulip": 146
+  }
+}

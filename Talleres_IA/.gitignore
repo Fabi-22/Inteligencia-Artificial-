@@ -1,0 +1,19 @@
+# Credenciales
+.env
+.env.*
+!.env.example
+apikeys.env
+# Entorno y caché
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+.cache/
+# Descargas y salidas regenerables de ejemplos
+**/runs/
+**/data/kagglecatsanddogs_5340.zip
+**/data/PetImages/
+
+**/yolo/datasets/
+**/deployment/datasets/
+*.cache

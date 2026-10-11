@@ -1,0 +1,82 @@
+[
+  {
+    "phase": "before",
+    "split": "test",
+    "file": "dataset/test/rose/0039.jpg",
+    "true": "rose",
+    "prediction": "tulip",
+    "confidence": 0.5519327521324158
+  },
+  {
+    "phase": "before",
+    "split": "test",
+    "file": "dataset/test/tulip/0100.jpg",
+    "true": "tulip",
+    "prediction": "rose",
+    "confidence": 0.5082628726959229
+  },
+  {
+    "phase": "before",
+    "split": "test",
+    "file": "dataset/test/tulip/0127.jpg",
+    "true": "tulip",
+    "prediction": "rose",
+    "confidence": 0.4967133104801178
+  },
+  {
+    "phase": "before",
+    "split": "test",
+    "file": "dataset/test/tulip/0139.jpg",
+    "true": "tulip",
+    "prediction": "rose",
+    "confidence": 0.5477636456489563
+  },
+  {
+    "phase": "after",
+    "split": "test",
+    "file": "dataset/test/rose/0039.jpg",
+    "true": "rose",
+    "prediction": "tulip",
+    "confidence": 0.5735606551170349
+  },
+  {
+    "phase": "after",
+    "split": "test",
+    "file": "dataset/test/tulip/0139.jpg",
+    "true": "tulip",
+    "prediction": "rose",
+    "confidence": 0.5314167141914368
+  },
+  {
+    "phase": "after",
+    "split": "validation",
+    "file": "dataset/validation/daisy/0064.jpg",
+    "true": "daisy",
+    "prediction": "tulip",
+    "confidence": 0.6040380597114563
+  },
+  {
+    "phase": "after",
+    "split": "validation",
+    "file": "dataset/validation/rose/0013.jpg",
+    "true": "rose",
+    "prediction": "tulip",
+    "confidence": 0.4723212420940399
+  },
+  {
+    "phase": "after",
+    "split": "validation",
+    "file": "dataset/validation/rose/0080.jpg",
+    "true": "rose",
+    "prediction": "tulip",
+    "confidence": 0.5925469398498535
+  },
+  {
+    "phase": "after",
+    "split": "validation",
+    "file": "dataset/validation/rose/0120.jpg",
+    "true": "rose",
+    "prediction": "tulip",
+    "confidence": 0.6904376149177551
+  }
+]
