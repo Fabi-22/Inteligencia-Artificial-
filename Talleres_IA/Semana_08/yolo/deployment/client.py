@@ -53,7 +53,8 @@ def send_image_to_server(image_path, url):
                 for detection in detections
             ]
 
-            annotated_image = Image.open(image_path)
+            with Image.open(image_path) as source_image:
+                annotated_image = source_image.convert("RGB")
             annotated_image = sv.BoxAnnotator().annotate(annotated_image, sv_detections)
             annotated_image = sv.LabelAnnotator().annotate(
                 annotated_image, sv_detections, labels
@@ -66,21 +67,24 @@ def send_image_to_server(image_path, url):
             file_path = os.path.join(os.path.dirname(image_path), file_name)
             annotated_image.save(file_path)
             logging.info("Annotated image saved to: %s", file_path)
+            return True
 
         else:
             logging.error("Error: %s %s", response.status_code, response.text)
+            return False
     except Exception as e:
         logging.error("An error occurred: %s", str(e))
+        return False
 
 
 def main():
     logging.basicConfig(level=logging.INFO)
     args = parse_arguments()
 
-    if check_image_file(args.image):
-        API_URL = args.url
-        send_image_to_server(args.image, API_URL)
+    if not check_image_file(args.image):
+        return 1
+    return 0 if send_image_to_server(args.image, args.url) else 1
 
 
 if __name__ == "__main__":
-    main()
+    raise SystemExit(main())

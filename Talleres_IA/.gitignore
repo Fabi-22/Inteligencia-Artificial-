@@ -5,6 +5,7 @@
 apikeys.env
 # Entorno y caché
 .venv/
+.venv-llm/
 __pycache__/
 .ipynb_checkpoints/
 .DS_Store

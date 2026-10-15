@@ -23,3 +23,7 @@ plotly==7.1.0
 
 litserve==0.2.19
 supervision==0.30.8
+
+# Video H.264 con FFmpeg incluido
+imageio==2.38.1
+imageio-ffmpeg==0.6.0

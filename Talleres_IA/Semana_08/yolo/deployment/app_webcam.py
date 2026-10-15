@@ -1,4 +1,5 @@
 import os
+from pathlib import Path
 import cv2
 import numpy as np
 import gradio as gr
@@ -8,7 +9,9 @@ from ultralytics import YOLO
 # ---------- Model (cached) ----------
 @lru_cache(maxsize=2)
 def load_model(weights: str = "yolov8n.pt"):
-    model = YOLO(weights)
+    # Resolve bundled weights independently of the terminal working directory.
+    local_weights = Path(__file__).resolve().parent / weights
+    model = YOLO(str(local_weights) if local_weights.is_file() else weights)
     try:
         model.fuse()
     except Exception:
@@ -61,7 +64,7 @@ def detect_frame(video_frame, weights, conf, iou, max_side):
     return cv2.cvtColor(annotated, cv2.COLOR_BGR2RGB)
 
 # ---------- UI ----------
-MODEL_CHOICES = ["best.py", "yolov8n.pt", "yolov8s.pt", "yolov8m.pt", "yolov8l.pt", "yolov8x.pt"]
+MODEL_CHOICES = ["best.pt", "yolov8n.pt", "yolov8s.pt", "yolov8m.pt", "yolov8l.pt", "yolov8x.pt"]
 
 def build_ui():
     with gr.Blocks() as demo:

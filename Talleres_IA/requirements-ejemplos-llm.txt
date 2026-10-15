@@ -1,5 +1,13 @@
-# Complementos probados para los ejemplos 01 y 02
--r requirements.txt
+# Entorno independiente para Semana_09/01 y 02: Python 3.11.
+# No instalar sobre requirements.txt: Transformers 4.x y Gradio 6 requieren
+# versiones incompatibles de huggingface_hub.
+numpy==2.3.5
+requests==2.34.2
+python-dotenv==1.2.4
+ipykernel==7.4.0
+nbformat==5.11.1
+nbclient==0.11.0
+torch==2.14.1
 transformers==4.57.6
 accelerate==1.15.0
 huggingface_hub==0.36.2

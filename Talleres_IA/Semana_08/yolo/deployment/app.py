@@ -1,4 +1,5 @@
 import os
+from pathlib import Path
 import cv2
 import tempfile
 import numpy as np
@@ -10,7 +11,9 @@ import imageio
 # -------- Model loading (cached) --------
 @lru_cache(maxsize=2)
 def load_model(weights: str = "yolov8n.pt"):
-    model = YOLO(weights)
+    # Resolve bundled weights independently of the terminal working directory.
+    local_weights = Path(__file__).resolve().parent / weights
+    model = YOLO(str(local_weights) if local_weights.is_file() else weights)
     try:
         model.fuse()  # small speed boost
     except Exception:
@@ -47,15 +50,21 @@ def _make_writer(w: int, h: int, fps: float):
     Create a browser-playable MP4 (H.264, yuv420p, faststart) using imageio/ffmpeg,
     but expose a .write(...) and .release() API to keep the rest of the code unchanged.
     """
-    out_path = tempfile.mkstemp(suffix=".mp4")[1]
-    writer = imageio.get_writer(
-        out_path,
-        fps=max(fps, 1.0),
-        codec="libx264",
-        format="FFMPEG",
-        macro_block_size=None,
-        ffmpeg_params=["-pix_fmt", "yuv420p", "-movflags", "+faststart"],
-    )
+    descriptor, out_path = tempfile.mkstemp(suffix=".mp4")
+    os.close(descriptor)
+    try:
+        writer = imageio.get_writer(
+            out_path,
+            fps=max(fps, 1.0),
+            codec="libx264",
+            format="FFMPEG",
+            macro_block_size=None,
+            pixelformat="yuv420p",
+            ffmpeg_params=["-movflags", "+faststart"],
+        )
+    except Exception:
+        Path(out_path).unlink(missing_ok=True)
+        raise
 
     class _Wrapper:
         def __init__(self, wtr):
@@ -81,51 +90,62 @@ def detect_video(video_path, weights, conf, iou, max_side, progress=gr.Progress(
 
     cap = cv2.VideoCapture(video_path)
     if not cap.isOpened():
+        cap.release()
         raise ValueError("Could not open the uploaded video.")
 
-    total = int(cap.get(cv2.CAP_PROP_FRAME_COUNT)) or 0
-    fps   = float(cap.get(cv2.CAP_PROP_FPS)) or 30.0
-    w     = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
-    h     = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
-
-    # Optional downscale for speed
-    scale = 1.0
-    if max(w, h) > max_side > 0:
-        scale = max_side / float(max(w, h))
-        w_s, h_s = int(w * scale), int(h * scale)
-    else:
-        w_s, h_s = w, h
-
-    # Ensure even dims for yuv420p (browser-friendly)
-    if w_s % 2: w_s -= 1
-    if h_s % 2: h_s -= 1
-
-    writer, out_path = _make_writer(w_s, h_s, fps)
-
+    writer = None
+    out_path = None
     i = 0
     try:
-        while True:
-            ok, frame = cap.read()
-            if not ok:
-                break
-            if scale != 1.0:
-                frame = cv2.resize(frame, (w_s, h_s), interpolation=cv2.INTER_AREA)
+        try:
+            total = int(cap.get(cv2.CAP_PROP_FRAME_COUNT)) or 0
+            fps = float(cap.get(cv2.CAP_PROP_FPS))
+            if not np.isfinite(fps) or fps <= 0:
+                fps = 30.0
+            w = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
+            h = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
+            if w <= 0 or h <= 0:
+                raise ValueError("The video has invalid dimensions.")
 
-            # YOLO expects BGR numpy; returns list of Results
-            results = model.predict(frame, conf=conf, iou=iou, verbose=False)
-            annotated = draw_detections(frame, results[0])
-            writer.write(annotated)
+            scale = max_side / float(max(w, h)) if max(w, h) > max_side > 0 else 1.0
+            # H.264/yuv420p needs even dimensions, including when scale == 1.
+            w_s = max(2, int(w * scale) // 2 * 2)
+            h_s = max(2, int(h * scale) // 2 * 2)
+            writer, out_path = _make_writer(w_s, h_s, fps)
+            while True:
+                ok, frame = cap.read()
+                if not ok:
+                    break
+                if frame.shape[1] != w_s or frame.shape[0] != h_s:
+                    frame = cv2.resize(frame, (w_s, h_s), interpolation=cv2.INTER_AREA)
+                results = model.predict(frame, conf=conf, iou=iou, verbose=False)
+                writer.write(draw_detections(frame, results[0]))
+                i += 1
+                if total > 0:
+                    progress(i / total, desc=f"Processing frame {i}/{total}")
+                elif i % 30 == 0:
+                    progress(desc=f"Processed {i} frames...")
+        finally:
+            cap.release()
+            if writer is not None:
+                writer.release()
 
-            i += 1
-            if total > 0:
-                progress(i / total, desc=f"Processing frame {i}/{total}")
-            elif i % 30 == 0:
-                progress(desc=f"Processed {i} frames...")
-    finally:
-        cap.release()
-        writer.release()
+        if i == 0 or not out_path or Path(out_path).stat().st_size == 0:
+            raise RuntimeError("No video frames were encoded.")
+        # Some FFmpeg failures only appear on stderr; verify the actual file.
+        encoded = cv2.VideoCapture(out_path)
+        try:
+            readable, _ = encoded.read()
+        finally:
+            encoded.release()
+        if not readable:
+            raise RuntimeError("The encoded video could not be read.")
+        return out_path
+    except Exception:
+        if out_path:
+            Path(out_path).unlink(missing_ok=True)
+        raise
 
-    return out_path
 
 # -------- Gradio UI --------
 def build_ui():

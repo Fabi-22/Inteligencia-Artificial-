@@ -36,7 +36,7 @@ El dataset de flores **sí está incluido** con `data_raw/`, `dataset/`, `image_
 
 - **NVIDIA ya está configurado en este equipo:** `Semana_09/.env` contiene la clave y **no se incluye en el ZIP ni debe subirse a GitHub**. En otro equipo, copia `.env.example` a `.env` e introduce tu clave. Los notebooks 03, 04 y 05 están probados. Para abrir la interfaz del 05, cambia `LAUNCH_UI = True`; escucha solo en el equipo local. Las respuestas reales y su evaluación se conservan en el notebook y en `nvidia_answers.json`.
 - **Roboflow ya está configurado en este equipo:** la clave está en `Semana_08/yolo/apikeys.env`, excluido del ZIP y de Git. En otro equipo, copia `apikeys.env.example` a `apikeys.env` y configura tu clave. El notebook de deployment lee ese mismo archivo desde la carpeta superior. Los datasets descargados y las carpetas `runs/` permanecen locales, pero no se duplican en el ZIP ni en GitHub. El helper de logística descarga aproximadamente 1,55 GB de validación y test, evitando el entrenamiento que no se utiliza. El acceso depende de los proyectos/versiones públicos del docente.
-- **Ejemplos LLM locales:** Ollama debe instalarse por separado. Hugging Face requiere dependencias adicionales de `requirements-ejemplos-llm.txt`; el token remoto ya está configurado localmente, pero la cuenta no tiene créditos de inferencia (HTTP 402). No se compró saldo.
+- **Ejemplos LLM locales:** Ollama debe instalarse por separado. Los ejemplos 01 y 02 requieren el entorno independiente de `requirements-ejemplos-llm.txt`; el token remoto ya está configurado localmente, pero la cuenta no tiene créditos de inferencia (HTTP 402). No se compró saldo.
 
 No incluyas archivos `.env` reales en GitHub; el `.gitignore` los excluye. Las plantillas no contienen credenciales.
 
@@ -58,4 +58,30 @@ El ejemplo SiteSafety contiene solo 4 imágenes de entrenamiento, 2 de validaci�
 
 Consulta `REVISION_PUNTO_POR_PUNTO.md`: 234 puntos documentados en 27 notebooks. Hay 26 notebooks ejecutados completos; solo queda sin comprobar satisfactoriamente la inferencia remota del notebook 02 de Hugging Face. Su parte local sí se probó.
 
-Para reproducir Cats/Dogs con GPU en un Mac Apple Silicon, utiliza un entorno separado con `requirements-macos-metal.txt`, en lugar de mezclarlo con el entorno principal. Instala Jupyter y registra ese entorno como kernel. Los demás notebooks conservan las dependencias principales. Ollama se instala por separado; si no está en PATH, define OLLAMA_BIN en tu `.env` local. La ruta de este equipo no se distribuye como credencial ni como requisito de otro equipo.
+Para reproducir Cats/Dogs con GPU en un Mac Apple Silicon, utiliza un entorno separado con `requirements-macos-metal.txt`, en lugar de mezclarlo con el entorno principal. Instala Jupyter y registra ese entorno como kernel. Los notebooks 01 y 02 de semana 9 usan el entorno LLM separado descrito abajo; el resto conserva las dependencias principales. Ollama se instala por separado; si no está en PATH, define OLLAMA_BIN en tu `.env` local. La ruta de este equipo no se distribuye como credencial ni como requisito de otro equipo.
+
+## Correcciones de instalación y despliegue
+
+Los notebooks 01 (Ollama) y 02 (Hugging Face) de semana 9 usan un **entorno separado**: Transformers 4.57.6 necesita huggingface_hub 0.36.2, incompatible con el requisito de Gradio 6.29.1 del entorno principal. No mezcles ambos archivos de dependencias.
+
+Desde `Talleres_IA/`, crea y registra el entorno LLM:
+
+```bash
+python3.11 -m venv .venv-llm
+source .venv-llm/bin/activate
+python -m pip install -r requirements-ejemplos-llm.txt
+python -m pip check
+python -m ipykernel install --user --name talleres-ia-llm --display-name "Talleres IA LLM"
+```
+
+Selecciona **Talleres IA LLM** para los notebooks 01 y 02. Jupyter puede abrirse desde el entorno principal; los notebooks NVIDIA/Gradio siguen usando el kernel principal. Ollama se instala por separado y la inferencia remota necesita un token válido y acceso al proveedor.
+
+El entorno principal declara ahora `imageio` e `imageio-ffmpeg`, incluido FFmpeg para generar video H.264. Reinstala sus dependencias con `python -m pip install -r requirements.txt` usando el entorno principal. Las aplicaciones de video y cámara buscan los pesos incluidos junto al script, aunque se inicien desde otra carpeta. La cámara ofrece `best.pt`. El video ajusta también dimensiones impares y rechaza resultados vacíos o ilegibles. El cliente HTTP termina con código 1 si falla la entrada, la petición o el guardado; devuelve 0 solo cuando guarda la imagen anotada.
+
+Las pruebas de regresión del despliegue se ejecutan desde esta carpeta, con el entorno principal:
+
+```bash
+python -m unittest discover -s tests -v
+```
+
+Las cifras de validación del 10 de octubre son históricas. La auditoría del 15 de octubre reprodujo 19 notebooks completos, tres de forma parcial y cinco quedaron bloqueados por credenciales. Cats/Dogs alcanzó el límite de tiempo durante el fine-tuning; los resultados de llamadas remotas anteriores no sustituyen su repetición con claves propias. Estas correcciones no acreditan esas pruebas pendientes.
